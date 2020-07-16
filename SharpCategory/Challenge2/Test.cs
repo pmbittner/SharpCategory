@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SharpCategory.Challenge2
 {
@@ -22,6 +23,23 @@ namespace SharpCategory.Challenge2
             Random random = new Random();
             TestMemoize(random.Next, 12);
             TestMemoize(seed => new Random(seed).Next(), 10);
+            
+            // Run all functions from bool to bool
+            var allBoolFunctions = new Dictionary<string, Function<bool, bool>>
+            {
+                {"True", x => true},
+                {"False", x => false},
+                {"Id", x => x},
+                {"Not", x => !x}
+            };
+
+            foreach (KeyValuePair<string, Function<bool, bool>> f in allBoolFunctions)
+            {
+                foreach (bool b in new[] {true, false})
+                {
+                    Console.WriteLine($"{f.Key}({b}) -> {f.Value(b)}");
+                }
+            }
         }
     }
 }
