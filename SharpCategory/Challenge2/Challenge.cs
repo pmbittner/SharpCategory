@@ -3,8 +3,10 @@ using System.Collections.Generic;
 
 namespace SharpCategory.Challenge2
 {
-    public class Test : SharpCategory.Test
+    public class Challenge : SharpCategory.Challenge
     {
+        int SharpCategory.Challenge.ChapterNo { get; set; } = 2;
+        
         private static void TestMemoize<T, R>(Function<T, R> f, T val)
         {
             Function<T, R> fmem = Functions.Memoize(f);
@@ -12,7 +14,7 @@ namespace SharpCategory.Challenge2
                 Console.WriteLine($"f({val}) = {fmem(val)}");
             Console.WriteLine();
         }
-        
+
         public void Run()
         {
             TestMemoize(x =>

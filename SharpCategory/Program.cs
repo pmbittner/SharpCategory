@@ -1,11 +1,24 @@
-﻿namespace SharpCategory
+﻿using System;
+using System.Collections.Generic;
+
+namespace SharpCategory
 {
     class Program
     {
         static void Main(string[] args)
         {
-            new Challenge1.Test().Run();
-            new Challenge2.Test().Run();
+            Challenge[] challenges =
+            {
+                new Challenge1.Challenge(),
+                new Challenge2.Challenge()
+            };
+
+            foreach (Challenge c in challenges)
+            {
+                Console.WriteLine($"=== Running Challenge {c.ChapterNo} =============================================");
+                c.Run();
+                Console.WriteLine();
+            }
         }
     }
 }

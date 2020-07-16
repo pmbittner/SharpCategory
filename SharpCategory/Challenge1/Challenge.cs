@@ -2,8 +2,10 @@
 
 namespace SharpCategory.Challenge1
 {
-    public class Test : SharpCategory.Test
+    public class Challenge : SharpCategory.Challenge
     {
+        int SharpCategory.Challenge.ChapterNo { get; set; } = 1;
+        
         private static void TestComposition<A, B, C>(Function<A, B> f, Function<B, C> g, A x)
         {
             Console.WriteLine();
