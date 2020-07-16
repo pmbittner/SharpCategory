@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SharpCategory
+namespace SharpCategory.Challenge1
 {
     public static partial class Functions
     {

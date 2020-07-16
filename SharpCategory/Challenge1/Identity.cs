@@ -1,4 +1,6 @@
-﻿namespace SharpCategory
+﻿using System;
+
+namespace SharpCategory.Challenge1
 {
     public static partial class Functions
     {
