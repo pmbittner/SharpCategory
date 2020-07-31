@@ -6,19 +6,25 @@ namespace SharpCategory.Challenge5
     {
         private A a;
         private B b;
+
+        private Either(bool isLeft) => IsLeft = isLeft;
         
-        public Either(A a)
+        public static Either<A, B> ConsLeft(A a)
         {
-            IsLeft = true;
-            this.a = a;
+            return new Either<A, B>(true)
+            {
+                a = a
+            };
+        }
+        
+        public static Either<A, B> ConsRight(B b)
+        {
+            return new Either<A, B>(false)
+            {
+                b = b
+            };
         }
 
-        public Either(B b)
-        {
-            IsLeft = false;
-            this.b = b;
-        }
-        
         public bool IsLeft { get; }
 
         public A Left
@@ -45,6 +51,12 @@ namespace SharpCategory.Challenge5
                 
                 throw new FieldAccessException($"This instance of Either<{typeof(A)}, {typeof(B)}> is not an {typeof(B)}!");
             }
+        }
+
+        public override string ToString()
+        {
+            string t = IsLeft ? "Left[" : "Right[";
+            return t + (IsLeft ? Left.ToString() : Right.ToString()) + "]";
         }
     }
 }
