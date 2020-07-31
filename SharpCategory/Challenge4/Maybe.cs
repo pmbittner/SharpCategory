@@ -1,13 +1,13 @@
 ﻿namespace SharpCategory.Challenge4
 {
-    public class Optional<T>
+    public class Maybe<T>
     {
-        public Optional()
+        public Maybe()
         {
             isValid = false;
         }
 
-        public Optional(T value)
+        public Maybe(T value)
         {
             isValid = true;
             this.value = value;

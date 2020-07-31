@@ -2,17 +2,17 @@
 {
     public partial class PartialKleisli
     {
-        public static Optional<T> Identity<T>(T x)
+        public static Maybe<T> Identity<T>(T x)
         {
-            return new Optional<T>(x);
+            return new Maybe<T>(x);
         }
 
-        public static Function<A, Optional<C>> Composition<A, B, C>(Function<A, Optional<B>> f, Function<B, Optional<C>> g)
+        public static Function<A, Maybe<C>> Composition<A, B, C>(Function<A, Maybe<B>> f, Function<B, Maybe<C>> g)
         {
             return a =>
             {
-                Optional<B> fa = f(a);
-                return fa.isValid ? g(fa.value) : new Optional<C>();
+                Maybe<B> fa = f(a);
+                return fa.isValid ? g(fa.value) : new Maybe<C>();
             };
         }
     }
