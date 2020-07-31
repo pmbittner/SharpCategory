@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System;
+using System.Security.Cryptography;
 
 namespace SharpCategory.Challenge5
 {
@@ -6,7 +7,10 @@ namespace SharpCategory.Challenge5
     {
         public int ChapterNo { get; } = 5;
 
-        public void Run() {}
+        public void Run()
+        {
+            Console.WriteLine("Nothing to do here.");
+        }
 
         private static int i(int n)
         {
@@ -52,13 +56,13 @@ namespace SharpCategory.Challenge5
          */
         private static Either<int, bool> m1_bool(bool b)
         {
-            return new Either<int, bool>(b);
+            return Either<int, bool>.ConsRight(b);
         }
         
         private static Either<int, bool> m2_bool(bool b)
         {
             // If b is is positive if could have corresponded to a positive integer according to i.
-            return new Either<int, bool>(b ? 1 : 0);
+            return Either<int, bool>.ConsLeft(b ? 1 : 0);
         }
         
         /*
