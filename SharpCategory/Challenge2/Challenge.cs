@@ -5,7 +5,7 @@ namespace SharpCategory.Challenge2
 {
     public class Challenge : SharpCategory.Challenge
     {
-        int SharpCategory.Challenge.ChapterNo { get; set; } = 2;
+        int SharpCategory.Challenge.ChapterNo { get; } = 2;
         
         private static void TestMemoize<T, R>(Function<T, R> f, T val)
         {

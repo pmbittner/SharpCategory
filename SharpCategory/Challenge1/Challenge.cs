@@ -4,7 +4,7 @@ namespace SharpCategory.Challenge1
 {
     public class Challenge : SharpCategory.Challenge
     {
-        int SharpCategory.Challenge.ChapterNo { get; set; } = 1;
+        int SharpCategory.Challenge.ChapterNo { get; } = 1;
         
         private static void TestComposition<A, B, C>(Function<A, B> f, Function<B, C> g, A x)
         {
