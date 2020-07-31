@@ -11,7 +11,9 @@ namespace SharpCategory
             {
                 new Challenge1.Challenge(),
                 new Challenge2.Challenge(),
-                new Challenge4.Challenge()
+                new Challenge4.Challenge(),
+                new Challenge5.Challenge(),
+                new Challenge6.Challenge()
             };
 
             foreach (Challenge c in challenges)
