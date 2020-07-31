@@ -20,9 +20,8 @@ namespace SharpCategory.Challenge4
         {
             Function<double, Optional<double>> safe_root_reciprocal =
                 PartialKleisli.Composition<double, double, double>(safe_reciprocal, safe_root);
-
-            double[] testArguments = {1.0, 0.0, -1.0, 0.25};
-            foreach (double x in testArguments)
+            
+            foreach (double x in new []{1.0, 0.0, -1.0, 0.25})
             {
                 Console.WriteLine($"  id({x})   = {PartialKleisli.Identity(x)}");
                 Console.WriteLine($"sqrt(1/{x}) = {safe_root_reciprocal(x)}");

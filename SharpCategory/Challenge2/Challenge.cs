@@ -37,7 +37,7 @@ namespace SharpCategory.Challenge2
 
             foreach (KeyValuePair<string, Function<bool, bool>> f in allBoolFunctions)
             {
-                foreach (bool b in new[] {true, false})
+                foreach (bool b in new []{true, false})
                 {
                     Console.WriteLine($"{f.Key}({b}) -> {f.Value(b)}");
                 }
