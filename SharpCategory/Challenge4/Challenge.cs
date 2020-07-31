@@ -4,7 +4,7 @@ namespace SharpCategory.Challenge4
 {
     public class Challenge : SharpCategory.Challenge
     {
-        int SharpCategory.Challenge.ChapterNo { get; } = 4;
+        public int ChapterNo { get; } = 4;
         
         Optional<double> safe_root(double x)
         {
