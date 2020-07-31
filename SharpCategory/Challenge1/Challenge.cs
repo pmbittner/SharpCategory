@@ -13,8 +13,8 @@ namespace SharpCategory.Challenge1
             Console.WriteLine($"  g(f({x})) = {g(f(x))}");
             Console.WriteLine($"(g.f)({x})  = {Functions.Composition(f, g)(x)}");
         }
-        
-        public static void TestId<T>(T val)
+
+        private static void TestId<T>(T val)
         {
             // We cannot assume T to be comparable.
             Console.WriteLine($"id({val}) = {Functions.Identity(val)}");

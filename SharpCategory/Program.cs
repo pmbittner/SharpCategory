@@ -10,7 +10,8 @@ namespace SharpCategory
             Challenge[] challenges =
             {
                 new Challenge1.Challenge(),
-                new Challenge2.Challenge()
+                new Challenge2.Challenge(),
+                new Challenge4.Challenge()
             };
 
             foreach (Challenge c in challenges)
