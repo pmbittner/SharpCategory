@@ -11,7 +11,7 @@ namespace SharpCategory.Challenge1
             Console.WriteLine();
             Console.WriteLine($"    f({x})  = {f(x)}");
             Console.WriteLine($"  g(f({x})) = {g(f(x))}");
-            Console.WriteLine($"(g.f)({x})  = {Functions.Composition(f, g)(x)}");
+            Console.WriteLine($"(g.f)({x})  = {Functions.Composition(g, f)(x)}");
         }
 
         private static void TestId<T>(T val)
