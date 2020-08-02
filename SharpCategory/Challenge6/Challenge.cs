@@ -30,8 +30,8 @@ namespace SharpCategory.Challenge6
 
         Either<Unit, A> ToEither<A>(Maybe<A> a)
         {
-            return a.isValid ?
-                Either<Unit, A>.ConsRight(a.value) :
+            return a.IsValid ?
+                Either<Unit, A>.ConsRight(a.Value) :
                 Either<Unit, A>.ConsLeft(new Unit());
         }
         

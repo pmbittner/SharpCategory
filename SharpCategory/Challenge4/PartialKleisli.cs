@@ -12,7 +12,7 @@
             return a =>
             {
                 Maybe<B> fa = f(a);
-                return fa.isValid ? g(fa.value) : new Maybe<C>();
+                return fa.IsValid ? g(fa.Value) : new Maybe<C>();
             };
         }
     }

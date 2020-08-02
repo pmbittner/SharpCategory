@@ -1,31 +1,33 @@
-﻿namespace SharpCategory.Challenge4
+﻿using SharpCategory.Challenge7;
+
+namespace SharpCategory.Challenge4
 {
     public class Maybe<T>
     {
         public Maybe()
         {
-            isValid = false;
+            IsValid = false;
         }
 
         public Maybe(T value)
         {
-            isValid = true;
-            this.value = value;
+            IsValid = true;
+            Value = value;
         }
 
-        public bool isValid
+        public bool IsValid
         {
             get;
         }
 
-        public T value
+        public T Value
         {
             get;
         }
 
         public override string ToString()
         {
-            return isValid ? value.ToString() : "<invalid>";
+            return IsValid ? Value.ToString() : "<invalid>";
         }
     }
 }
