@@ -1,6 +1,6 @@
 ﻿namespace SharpCategory.Challenge7
 {
-    public class Reader<R>
+    public static class Reader<R>
     {
         public static Function<Function<R, A>, Function<R, B>> fmap<A, B>(Function<A, B> f) 
             => reader => Challenge1.Functions.Composition(f, reader);
