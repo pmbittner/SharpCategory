@@ -20,6 +20,13 @@ namespace SharpCategory.Challenge1
             Console.WriteLine($"id({val}) = {Functions.Identity(val)}");
         }
 
+        private static void TestIfCompositionRespectsIdentity<A, B>(Function<A, B> f, A a)
+        {
+            Console.WriteLine($"       f({a}) = {f(a)}");
+            Console.WriteLine($"(id . f)({a}) = {Functions.Composition(Functions.Identity, f)(a)}");
+            Console.WriteLine($"(f . id)({a}) = {Functions.Composition<A, A, B>(f, Functions.Identity)(a)}");
+        }
+
         public void Run()
         {
             TestId(false);
@@ -29,6 +36,9 @@ namespace SharpCategory.Challenge1
 
             TestComposition(x => x + 1, x => $"It's {x}!", 0);
             TestComposition(x => x != 0, x => x ? 1 : 0, 0);
+
+            TestIfCompositionRespectsIdentity(x => x + 3, 5);
+            TestIfCompositionRespectsIdentity(x => !x, true);
         }
     }
 }
