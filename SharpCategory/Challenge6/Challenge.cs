@@ -12,7 +12,7 @@ namespace SharpCategory.Challenge6
         {
             Console.WriteLine(">> TestMaybeEitherIsomorphism");
             TestMaybeEitherIsomorphism(Either<Unit, string>.ConsRight("Fun"));
-            TestMaybeEitherIsomorphism(Either<Unit, string>.ConsLeft(new Unit()));
+            TestMaybeEitherIsomorphism(Either<Unit, string>.ConsLeft(Unit.Instance));
 
             Console.WriteLine(">> TestSumIsomorphism");
             TestSumIsomorphism(new Tuple<bool, int>(false, 7));
@@ -32,7 +32,7 @@ namespace SharpCategory.Challenge6
         {
             return a.IsValid ?
                 Either<Unit, A>.ConsRight(a.Value) :
-                Either<Unit, A>.ConsLeft(new Unit());
+                Either<Unit, A>.ConsLeft(Unit.Instance);
         }
         
         private void TestMaybeEitherIsomorphism<A>(Either<Unit, A> e)

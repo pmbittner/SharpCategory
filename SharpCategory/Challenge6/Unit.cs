@@ -2,6 +2,10 @@
 {
     public class Unit
     {
+        private Unit() {}
+        
+        public static Unit Instance { get; }
+        
         public override bool Equals(object? obj)
         {
             return obj is Unit;
