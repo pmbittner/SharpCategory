@@ -27,7 +27,7 @@ namespace SharpCategory.Challenge4
 
         public override string ToString()
         {
-            return IsValid ? Value.ToString() : "<invalid>";
+            return IsValid ? "Just " + Value : "Nothing";
         }
     }
 }

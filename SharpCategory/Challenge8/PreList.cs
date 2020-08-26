@@ -50,6 +50,9 @@ namespace SharpCategory.Challenge8
             return new PreList<X, Y>(false) {head = head, tail = tail};
         }
 
+        /**
+         * Task 3: Show that PreList is an instance of Bifunctor.
+         */
         public PreList<C, D> Bimap<C, D>(Function<A, C> g, Function<B, D> h)
         {
             if (IsEmpty)

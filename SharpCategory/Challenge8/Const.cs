@@ -16,5 +16,10 @@
         {
             return new Const<C, B>(Value);
         }
+
+        public override string ToString()
+        {
+            return $"Const<{typeof(C).Name}, {typeof(A).Name}>[{Value}]";
+        }
     }
 }

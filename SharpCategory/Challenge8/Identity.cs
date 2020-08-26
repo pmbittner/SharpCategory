@@ -18,5 +18,10 @@ namespace SharpCategory.Challenge8
         {
             return new Identity<B>(f(Value));
         }
+
+        public override string ToString()
+        {
+            return $"Id[{Value.ToString()}]";
+        }
     }
 }
