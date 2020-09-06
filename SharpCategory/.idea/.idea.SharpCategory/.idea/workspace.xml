@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b48f4bf3-a655-4537-8dac-2adceac50b8e" name="Default Changelist" comment="finished Challenge 8" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge1/Identity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge1/Composition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge1/Challenge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge2/Memoize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge2/Challenge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Function.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge4/Challenge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge4/PartialKleisli.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge5/Either.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge5/Challenge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge6/Unit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SharpCategory/Challenge6/Challenge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/2E/Object.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SharpCategory/Function.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Memoize.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Composition.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Identity.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge1/Identity.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge1/Composition.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge1/Test.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Test.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenges2/Memoize.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenges2/Test.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge2/Memoize.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge2/BoolToBool.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge2/Test.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge4/PartialKleisli.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge4/Optional.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge4/Challenge.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge2/Challenge.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge1/Challenge.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge5/Either.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge5/Challenge.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Program.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge7/Challenge.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge8/Pair.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge6/Challenge.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge8/PreList.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge8/K2.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge8/Fst.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge8/Snd.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge6/Unit.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge8/Identity.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge4/Maybe.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge8/Const.cs" />
+        <option value="$PROJECT_DIR$/SharpCategory/Challenge8/Challenge.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eUM181o7oxeQnY6Ne6TdBZuuzq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SharpCategory" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SharpCategory/SharpCategory.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Solutions for Challenge 1.4" />
+    <MESSAGE value="refactored project structure to be ready for future challenges" />
+    <MESSAGE value="added last exercise for challenge 2" />
+    <MESSAGE value="refined test facility" />
+    <MESSAGE value="solutions for challenge 4" />
+    <MESSAGE value="inlined args list" />
+    <MESSAGE value="refined chapterNo property implementation" />
+    <MESSAGE value="solutions for challenge no 5" />
+    <MESSAGE value="began with solutions for Challenge 8" />
+    <MESSAGE value="finished Challenge 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished Challenge 8" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2746" y="418" key="Github.ShareDialog" timestamp="1596188252556">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2746" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596188252556" />
+    <state width="1237" height="267" key="GridCell.Tab.0.bottom" timestamp="1598430643136">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594912761840" />
+    <state width="1237" height="267" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598430643136" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596189312088" />
+    <state width="1237" height="267" key="GridCell.Tab.0.center" timestamp="1598430643136">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594912761840" />
+    <state width="1237" height="267" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598430643136" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596189312088" />
+    <state width="1237" height="267" key="GridCell.Tab.0.left" timestamp="1598430643136">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594912761840" />
+    <state width="1237" height="267" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598430643136" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596189312088" />
+    <state width="1237" height="267" key="GridCell.Tab.0.right" timestamp="1598430643136">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594912761840" />
+    <state width="1237" height="267" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598430643136" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596189312088" />
+    <state x="2708" y="205" key="RiderGenerateDialog" timestamp="1596200730046">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2708" y="205" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596200730046" />
+    <state x="58" y="0" key="SettingsEditor" timestamp="1598430635318">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594374291281" />
+    <state x="58" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598430635318" />
+    <state x="2060" y="142" width="1643" height="758" key="VCS.FileHistoryDialog" timestamp="1596188639919">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="VCS.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1594548677256" />
+    <state x="2060" y="142" width="1643" height="758" key="VCS.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596188639919" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1598430604601">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594378337292" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598430604601" />
+    <state x="2270" y="113" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596204894864" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596612210795">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1596274206070" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1596612210795" />
+  </component>
+</project>
