@@ -1,6 +1,8 @@
 module Main where
 
-import Lib
+import Challenge
+import Challenge10
+import Data.List
 
 main :: IO ()
-main = someFunc
+main = putStrLn $ intercalate "\n\n" $ run <$> [challenge10]

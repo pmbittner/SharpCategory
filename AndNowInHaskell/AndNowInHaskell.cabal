@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d08d33fa9e6000597471ca40a252f0bb2126d82410f42e459a24f44da7914ec2
+-- hash: 667253b8d6f43dd6b5ead8bb924e67b1d4965bb2c7b6529c00f96e1b50b9e6fe
 
 name:           AndNowInHaskell
 version:        0.1.0.0
@@ -27,13 +27,15 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Challenge
+      Challenge10
   other-modules:
       Paths_AndNowInHaskell
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
+    , mtl
   default-language: Haskell2010
 
 executable AndNowInHaskell-exe
@@ -46,6 +48,7 @@ executable AndNowInHaskell-exe
   build-depends:
       AndNowInHaskell
     , base >=4.7 && <5
+    , mtl
   default-language: Haskell2010
 
 test-suite AndNowInHaskell-test
@@ -59,4 +62,5 @@ test-suite AndNowInHaskell-test
   build-depends:
       AndNowInHaskell
     , base >=4.7 && <5
+    , mtl
   default-language: Haskell2010
